@@ -1,0 +1,80 @@
+body{
+    background-image:url(multimedia/fondo.jpg);
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: fixed;  
+    background-repeat: no-repeat;
+}
+
+/* header de paginas*/
+.row div h1{
+    color:rgb(236, 236, 236);
+    text-transform: capitalize;
+    font-size: 34px;
+    text-align: center;
+}
+
+header nav{
+    background-color: rgb(46, 37, 58);
+    font-size: 20px;
+    text-align: center;
+}
+header nav ul a{
+    color: darkcyan;
+}
+
+header nav li:hover{
+    background-color: cyan;
+}
+header nav li:active{
+    background-color:  rgb(100, 24, 136);
+    
+}
+
+/* section de productos.html */
+
+table,td, th {
+    border: 1px solid black;
+}
+table{
+    background-color: rgb(6, 58, 117); 
+}
+
+th {
+    font-family: Arial;
+    text-transform: uppercase;
+    color:#c8c8c8;
+}
+td {
+    color:#c8c8c8 ;
+}
+/* section de promos.html*/
+.row div h3{
+    color:  rgb(46, 37, 58);
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* footer de paginas*/
+
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+}
+
+
+footer div ul a{
+    color: rgb(255, 255, 255);
+}
+
+footer div ul li:hover{
+    background-color: rgb(211, 211, 211);
+}
+footer div ul li:active{
+    background-color:  rgb(100, 24, 136);
+}
