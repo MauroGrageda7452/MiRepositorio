@@ -5,25 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
     <title>PRODUCTOS</title>
 </head>
 <body>
     <!-- fila de logo+ nav-->
     <header> <!-- Header, tenes lo visible lo que usuario va a ver-->
-        <div>
-            <a href="../index.html"><img src="../multimedia/Logo.jpg" alt="reparacion de icono de computadora" allowfullscreen="" loading="lazy"></a>
-            <h1>PRODUCTOS</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 col-3 col-lg-2 col-xl-1 col-sm-2">
+                    <a href="../index.html"><img src="../multimedia/Logo.jpg" alt="reparacion de icono de computadora" allowfullscreen="" loading="lazy" class="card-img-top"></a>                
+                </div>
+                <div class="col-md-8 offset-md-2 col-8 offset-col-1 col-sm-8 offset-sm-2 col-lg-7 offset-lg-3 col-xl-7 offset-xl-4">
+                    <h1>PRODUCTOS</h1>
+                </div>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li> <a href="../index.html">INICIO</a></li>
-                <li> <a href="#">PRODUCTOS</a></li>
-                <li> <a href="promos.html">PROMOS</a></li>
-                <li> <a href="nosotros.html">NOSOTROS</a></li>
-                <li> <a href="contacto.html">CONTACTO</a></li>
-            </ul>
+        <!-- offset-md-6 deja 6 columnas sin usar -->
+        <nav class="container-fluid">
+                <ul class="nav">
+                    <li class="nav-item col-xl-2 col-md-2 col-6 col-lg-2 col-sm-4"> <a class="nav-link" href="../index.html">INICIO</a></li>
+                    <li class="nav-item col-xl-3 col-md-3 col-6 col-lg-3 col-sm-4" > <a class="nav-link disabled" href="#">PRODUCTOS</a></li>
+                    <li class="nav-item col-xl-2 col-md-2 col-6 col-lg-2 col-sm-4"> <a class="nav-link" href="promos.html">PROMOS</a></li>
+                    <li class="nav-item col-xl-3 col-md-3 col-6 col-lg-3 col-sm-6"> <a class="nav-link" href="nosotros.html">NOSOTROS</a></li>
+                    <li class="nav-item col-xl-2 col-md-2 col-12 col-lg-2 col-sm-6"> <a class="nav-link" href="contacto.html">CONTACTO</a></li>
+                </ul>
         </nav>
     </header>
+
+
 
 
     <!-- cierre de fila logo + nav -->
@@ -32,94 +42,109 @@
     <!-- tabla de productos-->
     <section>
         <article>
-            <table border="5" cellspacing="10" cellpadding="20">
+            <table class="table">
                 <!--inicio de fila--->
-                <tr>
-                    <th>producto</th>
-                    <th>modelo</th>
-                    <th>descripcion</th>
-                    <th>Precio</th>
-                </tr>
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col"> Producto </th>
+                        <th scope="col"> Modelo </th>
+                        <th scope="col"> Descripcion </th>
+                        <th scope="col"> Precio </th>
+                    </tr>
+                </thead>
+                <tbody>
                 <!--final de la fila -->
-                <tr>
+                    <tr>
                 <!--inicio de fila--->
-                    <td>Teclado</td>
-                    <td>modelo</td>
-                    <td>descripcion</td>
-                    <td>$$$$$</td>
-                </tr>
-                <!--final de la fila -->
-                <tr>
+                        <th scope="row">Teclado</th>
+                        <td>modelo</td>
+                        <td>descripcion</td>
+                        <td>$$$$$</td>
+                    </tr>
+                    <!--final de la fila -->
+                    <tr>
+                        <!--inicio de fila--->
+                        <td></td>
+                        <td>modelo</td>
+                        <td>descripcion</td>
+                        <td>$$$$$</td>
+                    </tr>
+                    <tr>
                     <!--inicio de fila--->
-                    <td></td>
-                    <td>modelo</td>
-                    <td>descripcion</td>
-                    <td>$$$$$</td>
-                </tr>
-                <tr>
-                <!--inicio de fila--->
-                    <td>Mouse</td>
-                    <td>modelo</td>
-                    <td>descripcion</td>
-                    <td>$$$$$</td>
-                </tr>
-                <!--final de la fila -->
-                <tr>
+                        <th scope="row">Mouse</th>
+                        <td>modelo</td>
+                        <td>descripcion</td>
+                        <td>$$$$$</td>
+                    </tr>
+                    <!--final de la fila -->
+                    <tr>
+                        <!--inicio de fila--->
+                        <td></td>
+                        <td>modelo</td>
+                        <td>descripcion</td>
+                        <td>$$$$$</td>
+                    </tr>
+                    <tr>
                     <!--inicio de fila--->
-                    <td></td>
-                    <td>modelo</td>
-                    <td>descripcion</td>
-                    <td>$$$$$</td>
-                </tr>
-                <tr>
-                <!--inicio de fila--->
-                    <td>PC</td>
-                    <td>modelo</td>
-                    <td>descripcion</td>
-                    <td>$$$$$</td>
-                </tr>
-                <!--final de la fila -->
-                <tr>
-                    <!--inicio de fila--->
-                    <td></td>
-                    <td>modelo</td>
-                    <td>descripcion</td>
-                    <td>$$$$$</td>
-                </tr>
-                <!--final de la fila -->
+                        <th scope="row">PC</th>
+                        <td>modelo</td>
+                        <td>descripcion</td>
+                        <td>$$$$$</td>
+                    </tr>
+                    <!--final de la fila -->
+                    <tr>
+                        <!--inicio de fila--->
+                        <td></td>
+                        <td>modelo</td>
+                        <td>descripcion</td>
+                        <td>$$$$$</td>
+                    </tr>
+                    <!--final de la fila -->
 
-                <tr>
-                <!--inicio de fila--->
-                    <td>Pantalla</td>
-                    <td>modelo</td>
-                    <td>descripcion</td>
-                    <td>$$$$$</td>
-                <!--final de la fila -->
-                </tr>
-                <tr>
+                    <tr>
                     <!--inicio de fila--->
-                    <td></td>
-                    <td>modelo</td>
-                    <td>descripcion</td>
-                    <td>$$$$$</td>
-                </tr>
+                        <th scope="row">Pantalla</th>
+                        <td>modelo</td>
+                        <td>descripcion</td>
+                        <td>$$$$$</td>
+                    <!--final de la fila -->
+                    </tr>
+                    <tr>
+                        <!--inicio de fila--->
+                        <td></td>
+                        <td>modelo</td>
+                        <td>descripcion</td>
+                        <td>$$$$$</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
             </table>
         </article>
     </section>
     <!-- cierre de tabla de productos-->
     <!-- inicio de footer-->
-    <footer> 
-        <a href="index.html"><img src="../multimedia/Logo.jpg" alt="reparacion de icono de computadora" allowfullscreen="" loading="lazy"></a>
-        
-        <div>
-            <p><em>Nuestras Redes</em></p>
-            <ul>
-                <li> <a href="https://facebook.com" target="_blank"> facebook </a> </li>
-                <li> <a href="https://www.instagram.com" target="_blank"> instagram </a> </li>
-                <li> <a href="https://web.whatsapp.com" target="_blank"> whatsapp </a> </li>
-                <li> <a href="https://twitter.com" target="_blank"> twitter </a> </li>
-            </ul>
-        </div>
+    <footer class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 col-3 col-lg-2 col-xl-1 col-sm-2">
+                    <a href="index.html"><img src="../multimedia/Logo.jpg" alt="reparacion de icono de computadora" allowfullscreen="" loading="lazy" class="card-img-top"></a>
+                </div>
+                <div class="col-9 col-sm-10 col-md-10 col-xl-11">                    
+                    <div class=" col-12 col-sm-9 offset-sm-3 col-md-8 offset-md-4 col-xl-7 offset-xl-5">
+                        <em>Nuestras Redes</em>
+                    </div>
+                    <ul class="nav">            
+                        <li class="nav-item col-6 col-md-3 offset-lg-1 col-lg-2"> <a class="nav-link" href="https://facebook.com" target="_blank"> facebook </a> </li>
+                        <li class="nav-item col-6 col-md-3 offset-lg-1 col-lg-2"> <a class="nav-link" href="https://www.instagram.com" target="_blank"> instagram </a> </li>
+                        <li class="nav-item col-6 col-md-3 offset-lg-1 col-lg-2"> <a class="nav-link" href="https://web.whatsapp.com" target="_blank"> whatsapp </a> </li>
+                        <li class="nav-item col-6 col-md-3 offset-lg-1 col-lg-2"> <a class="nav-link" href="https://twitter.com" target="_blank"> twitter </a> </li>
+                    </ul>
+                </div>
+            </div>
     </footer>
     <!-- cierre de footer-->
 
