@@ -167,7 +167,14 @@ section article div a:active{
 .imgs__prod{
     width: 100%;
     height: 250px;
+    transition: all .3s ease-in-out;
 }
+
+.imgs__prod:hover{
+    transform: scale(0.9);
+    transform-origin: center center;
+}
+
 /*  finaliza Section de index.html */
 /* --------------------------------------------------------*/
 /* inicio de Section de productos.html */
