@@ -379,42 +379,21 @@ section article div a:active{
 /* --------------------------------------------------------*/
 /* Inicio de Section de promos.html*/
 .PromoImg{ 
-
-    border: 7px solid rgb(110, 26, 26);
-    width: 50%;
-    height: 300px;
-    margin-top: 10px;
-    margin-left: 250px;
+    width: 90%;
+    height: 750px;
+    margin: auto;
+    display: flex;
+    box-shadow: 10px 10px;
 } 
-
-
 .PromoText{
-    margin-left: 420px;
-    padding: 11.5px;
     color: rgb(44, 1, 44) ;
     background: rgb(105, 2, 105) ;
-    font-size: 27px;
-    display: inline-block;
-}
-
-/* Inicio de Section de promos.html*/
-.PromoImg{ 
-
-    border: 7px solid rgb(110, 26, 26);
-    width: 50%;
-    height: 300px;
+    font-size: 23.5px;
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
-    margin-left: 250px;
-} 
-
-
-.PromoText{
-    margin-left: 420px;
-    padding: 11.5px;
-    color: rgb(44, 1, 44) ;
-    background: rgb(105, 2, 105) ;
-    font-size: 27px;
-    display: inline-block;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
 }
 /* finaliza Section, pagina promos.html*/ 
 /* --------------------------------------------------------*/
@@ -783,6 +762,17 @@ footer div ul li:active{
         font-size: 17px;
     }
 
+    /* promos.html*/ 
+    .PromoImg{ 
+        width: 90%;
+        height: 550px;
+    } 
+    .PromoText{
+        margin-left: 25.5%;
+        margin-right: 25.5%;
+    }
+
+
     /* nosotros.html */
     .TiendaImg{
         margin-top: 10%;
@@ -832,8 +822,16 @@ footer div ul li:active{
     .modelo__teclado_1 , .modelo__teclado_2, .modelo__mouse_1, .modelo__mouse_2, .modelo__pantalla_1, .modelo__pantalla_2, .modelo__pc_1, .modelo__pc_2{
         font-size: 17px;
     }
+    /* promos.html */
 
-
+    .PromoImg{ 
+        width: 95%;
+        height: 750px;
+    } 
+    .PromoText{
+        margin-left: 39.5%;
+        margin-right: 39.5%;
+    }
 
     /* nosotros.html*/
     .TiendaImg{
